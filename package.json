@@ -1,0 +1,21 @@
+{
+  "name": "easy-rm-rf",
+  "version": "0.0.1-01+dev",
+  "description": "Easy rm -rf utility CLI",
+  "author": "@brodybits (Christopher J. Brody) <chris.brody@gmail.com>",
+  "license": "ISC OR MIT",
+  "keywords": [
+    "glob",
+    "rimraf"
+  ],
+  "bin": {
+   "easy-rm-rf": "./rm-rf-cli.js",
+   "rm-rf": "./rm-rf-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "meow": "^5.0.0"
+  }
+}
